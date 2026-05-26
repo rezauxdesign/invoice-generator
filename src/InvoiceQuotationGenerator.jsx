@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { jsPDF } from 'jspdf';
+import html2canvas from 'html2canvas';
 
 export default function InvoiceQuotationGenerator() {
   // State management
