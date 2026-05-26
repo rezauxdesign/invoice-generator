@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { jsPDF } from 'https://esm.sh/jspdf@2.5.1';
+import { jsPDF } from 'jspdf';
 
 export default function InvoiceQuotationGenerator() {
   // State management
